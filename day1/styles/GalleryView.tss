@@ -13,7 +13,7 @@
 	width:Ti.UI.FILL,
 	layout:'horizontal',
 	height:Ti.UI.SIZE
-}
+},
 
 ".thumb":{
 	top:'10dp',
@@ -23,7 +23,7 @@
 	borderWidth:'4dp',
 	borderColor:'#fff',
 	// backgroundColor:'#000'
-}
+},
 ".thumb[platform=android]":{
 	height:'90dp',
 }
