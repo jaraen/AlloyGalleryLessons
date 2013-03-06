@@ -1,0 +1,15 @@
+<Alloy>
+	<ScrollView class="scroll">
+		<View id="container" onClick="openItem">
+    	    <ImageView image="/images/1.jpg" class="thumb" />
+		    <ImageView image="/images/2.jpg" class="thumb" />
+		    <ImageView image="/images/3.jpg" class="thumb" />
+		    <ImageView image="/images/4.jpg" class="thumb" />
+    	    <ImageView image="/images/5.jpg" class="thumb" />
+		    <ImageView image="/images/6.jpg" class="thumb" />
+		    <ImageView image="/images/7.jpg" class="thumb" />
+		    <ImageView image="/images/8.jpg" class="thumb" />
+		    <ImageView image="/images/9.jpg" class="thumb" />
+	    </View>
+	</ScrollView>
+</Alloy>

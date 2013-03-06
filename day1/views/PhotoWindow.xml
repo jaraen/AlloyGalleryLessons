@@ -1,0 +1,8 @@
+<Alloy>
+    <Window id="win">
+		<Button onClick="closeWin" id="btnClose" platform="ios">Close</Button>
+		<ScrollView id="scroll">
+			<ImageView id="img"></ImageView>
+		</ScrollView>
+	</Window>
+</Alloy>

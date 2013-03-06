@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+		<Require src="GalleryView" id="gallery" />
+	</Window>
+</Alloy>
