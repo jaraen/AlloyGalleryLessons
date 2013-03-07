@@ -1,0 +1,30 @@
+<Alloy>
+    <Window id="win">
+      	
+        <!-- IOS: put the right nav button for options and optionsDialog -->
+        
+      	<RightNavButton platform="ios">
+   			<Button onClick="showOptionsDialog">Options</Button>
+   		</RightNavButton>
+   		
+		<OptionDialog id="options" title="Photo Options" cancel="2" onClick="selectOption" platform="ios">
+			<Options>
+				<Option>Save</Option>
+				<Option>E-mail</Option>
+				<Option>Cancel</Option>
+			</Options>
+		</OptionDialog>
+
+		<!-- ANDROID: use menu options -->
+		
+		<Menu platform="android">
+			<MenuItem title="E-mail" onClick="mailPhoto"/>
+			<MenuItem title="Save"  onClick="savePhoto"/>
+		</Menu>
+		
+		<!-- UI: show the picture -->      			
+		<ScrollView id="scroll">
+			<ImageView id="img"></ImageView>
+		</ScrollView>
+	</Window>
+</Alloy>

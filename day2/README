@@ -1,0 +1,26 @@
+
+AlloyGallery
+============
+
+Día 2 - Filesystem y datos remotos
+
+Tareas
+======
+- Separa cada una de las fotos de GalleryView en un nuevo controllador llamado ThumbnailView
+- Modifica GalleryView para que cargue todas las imágenes de la carpeta /assets/images automáticamente, 
+  usando el Filesystem de Titanium
+- Crea un nuevo controlador llamado RemoteGalleryView que se conecte con un feed de flickr y muestre las 
+  imágenes del feed.
+- Pon un activity Indicator mientras se cargan las imágenes remotas
+- En PhotoWindow, modifícalo para poder grabar o compartir por mail la foto.
+
+
+
+Instrucciones:
+==============
+
+Copiar el contenido de la carpeta DayX en el interior de la carpeta app de tu proyecto Titanium+Alloy.
+
+
+Autor: Javier Rayon - www.criteriastudio.com
+twitter: @jrayon

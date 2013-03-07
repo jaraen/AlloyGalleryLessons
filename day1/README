@@ -4,6 +4,11 @@ AlloyGallery
 
 Día 1 - Construcción del UI.
 
+Tareas:
+======
+- Implementa un navigationGroup que funcione sólo en iPhone, de manera que PhotoWindow se abra con el navigationGroup (de este modo no hace falta el botón de cerrar)
+- iOS: En PhotoWindow, pon un botón a la derecha de la barra de navegación para compartir la foto por mail
+- Android: En PhotoWindow, implementa un menú que se abra al usar la tecla menú del teléfono con opción para compartir la foto por mail
 
 Instrucciones:
 ==============
