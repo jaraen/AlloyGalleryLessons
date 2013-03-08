@@ -1,0 +1,6 @@
+<Alloy>
+	<ScrollView class="scroll">
+		<View id="container" onClick="openItem">
+	    </View>
+	</ScrollView>
+</Alloy>

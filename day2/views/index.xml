@@ -1,5 +1,6 @@
 <Alloy>
 	<Window class="container">
+	    
 		<NavigationGroup id="navgroup"  platform="ios" >
 			<Window title="Galería" id="win1">
 				<Require src="GalleryView" id="gallery" />

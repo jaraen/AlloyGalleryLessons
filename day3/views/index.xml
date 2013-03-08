@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container">
+		<NavigationGroup id="navgroup"  platform="ios,mobileweb" >
+			<Window title="Galería" id="win1">
+<!-- 				<Require src="GalleryView" id="gallery" /> -->
+				<Require src="RemoteGalleryView" id="gallery" />
+<!-- 				<Require src="FavoritesGalleryView" id="gallery" /> -->
+			</Window>
+		</NavigationGroup>
+		
+		<!-- ANDROID -->
+<!-- 		<Require src="GalleryView" id="gallery" /> -->
+		<Require src="RemoteGalleryView" id="gallery"  platform="android" />
+<!-- 		<Require src="FavoritesGalleryView" id="gallery"  platform="android" /> -->
+		
+	</Window>
+</Alloy>

@@ -1,0 +1,27 @@
+"#win":{
+	backgroundColor:'#333',
+},
+
+"#win[platform=android]":{
+	exitOnClose:false,
+	navBarHidden:false
+},
+
+"#scroll":{
+	contentHeight:'auto',
+	contentWidth:'auto',
+	maxZoomScale:4
+},
+
+
+"#btnClose":{
+	top:'5dp',
+	right:'5dp',
+	zIndex:9
+},
+
+"#img":{
+	width:'100%',
+	enableZoomControls:true
+	// height:'100%'
+}

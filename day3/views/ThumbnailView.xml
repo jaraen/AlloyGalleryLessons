@@ -1,0 +1,5 @@
+<Alloy>
+	<View class="thumb" id="container" onLongpress="fireEditEvent">
+   	    <ImageView id="img" />
+    </View>
+</Alloy>
