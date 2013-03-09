@@ -1,0 +1,25 @@
+"#container": {
+	backgroundColor: "white",
+	height:'100dp',
+	widht:'100dp'
+},
+
+".thumb":{
+	top:'10dp',
+	right:'5dp',
+	left:'5dp',
+	width:'90dp',
+	borderWidth:'4dp',
+	borderColor:'#fff',
+	// backgroundColor:'#000'
+},
+".thumb[platform=android]":{
+	height:'90dp',
+},
+
+
+"#img":{
+	touchEnabled:false
+},
+
+

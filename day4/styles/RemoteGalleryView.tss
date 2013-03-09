@@ -1,0 +1,26 @@
+".scroll": {
+	backgroundColor: "#999",
+	contentHeight:'auto',
+	contentWidth:'auto',
+	showVerticalScrollIndicator:true,
+	showHorizontalScrollIndicator:false
+	
+},
+
+"#searchBar":{
+	top:0,
+	value:'lomo',
+},
+
+"#searchBar[platform=android]":{
+	height:'38dp'
+},
+
+
+"#container":{
+	top:'40dp',
+	left:5,
+	width:Ti.UI.FILL,
+	layout:'horizontal',
+	height:Ti.UI.SIZE
+}

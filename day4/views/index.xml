@@ -1,0 +1,46 @@
+<Alloy>
+	<TabGroup>
+	    
+		<Tab title="Flickr" id="tab1">
+			<Window title="Flickr" id="win1">
+				<Require src="RemoteGalleryView" id="remoteGallery" />
+			</Window>
+		</Tab>
+		
+		<Tab title="Favoritas" id="tab2">
+			<Window title="Favoritas" id="win2">
+				<ScrollableView>					
+					<Require src="FavoritesGalleryView" id="favoritesGallery" />
+					<Require src="GalleryView" id="gallery" />
+				</ScrollableView>
+			</Window>
+		</Tab>
+		
+		<Tab title="Hacer foto" id="tab3">
+				<Require src="CameraView" id="cameraView" />
+		</Tab>
+		
+		<Tab title="Compartidas" id="tab4">
+			<Window title="En la nube" id="win4">
+		      	
+		      	<RightNavButton platform="ios">
+		   			<Button onClick="refreshACS" id="btnRefresh"/>
+		   		</RightNavButton>
+		   		
+				<Require src="ACSGalleryView" id="acsGallery" />
+
+				<Menu platform="android">
+					<MenuItem title="Refresh" onClick="refreshACS"/>
+				</Menu>
+				
+			</Window>
+		</Tab>
+		
+		<Tab title="Map" id="tab5">
+			<Window title="En la nube" id="win4">
+				<View ns="Ti.Map" id="map"></View>
+			</Window>
+		</Tab>
+		
+	</TabGroup>
+</Alloy>

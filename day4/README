@@ -1,0 +1,37 @@
+
+AlloyGallery
+============
+
+Día 3 - Model y ACS
+
+- Crea un model llamado "photo" con los campos (son los campos devueltos por flickr):
+	"title":"text",
+	"link":"text",
+	"url":"text",
+	"original_image":"text",
+	"image":"text",			//en este guardamos la senda al fichero guardado en applicationDataDirectory
+	"author":"text",
+	"tags":"text"
+	
+- Modifica PhotoWindow para que cuando se grabe una foto en disco también se guarde su información 
+  en el modelo photo (título, nombre de fichero, etc.)
+- Crea un nuevo controlador llamado FavoritesGalleryView que muestre las imágenes guardadas en la base de datos
+- Añade una opción a PhotoWindow para compartir la foto en la nube (en ACS).
+- Crea un nuevo controlador llamado ACSGalleryView que muestre las imágenes que se han compartido en la nube.
+
+Para aseguraros que todos compartís las fotos en la misma nube, utiliza estas claves en tiapp.xml
+
+    <property name="acs-oauth-secret-development" type="string">rMG8GuSuQsG6d3KOZGiArNlpCP4gNhgz</property>
+    <property name="acs-oauth-key-development" type="string">Npwnm7qSt7wHHjaiU03CazUxUhOJGKJJ</property>
+    <property name="acs-api-key-development" type="string">vSj8yyzWeWAkIdPy9crp1OH4KeCcbyzI</property>
+
+Instrucciones:
+==============
+
+Copiar el contenido de la carpeta DayX en el interior de la carpeta app de tu proyecto Titanium+Alloy.
+
+Autor: Javier Rayon - www.criteriastudio.com
+twitter: @jrayon
+
+
+

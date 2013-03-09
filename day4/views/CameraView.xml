@@ -1,0 +1,32 @@
+<Alloy>
+    <Window id="win" title="Photo">
+      	
+        <!-- IOS: put the right nav button for options and optionsDialog -->
+        
+      	<RightNavButton platform="ios">
+   			<Button onClick="showOptionsDialog">Options</Button>
+   		</RightNavButton>
+   		
+		<OptionDialog id="options" title="Photo Options" cancel="3" onClick="selectOption" platform="ios">
+			<Options>
+				<Option>Add to favorites</Option>
+				<Option>E-mail</Option>
+				<Option>Share</Option>
+				<Option>Cancel</Option>
+			</Options>
+		</OptionDialog>
+
+		<!-- ANDROID: use menu options -->
+		
+		<Menu platform="android">
+			<MenuItem title="E-mail" onClick="mailPhoto"/>
+			<MenuItem title="Add to favorites"  onClick="savePhoto"/>
+			<MenuItem title="Share"  onClick="sharePhoto"/>
+		</Menu>
+		
+		<!-- UI: show the picture -->      			
+		<Button id="btnCamera" onClick="capturePhoto">Abrir cámara</Button>
+		<ImageView id="img" />
+		
+	</Window>
+</Alloy>

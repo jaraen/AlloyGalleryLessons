@@ -1,0 +1,7 @@
+<Alloy>
+	<ScrollView class="scroll">
+	    <SearchBar id="searchBar" onReturn="search"></SearchBar>
+		<View id="container" onClick="openItem">
+	    </View>
+	</ScrollView>
+</Alloy>

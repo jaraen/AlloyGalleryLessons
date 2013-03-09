@@ -1,0 +1,13 @@
+".container": {
+	backgroundColor: "white"
+},
+
+"#btnCamera":{
+	top:'20'
+},
+
+"#img":{
+	top:'100dp',
+	width:'300dp',
+	height:'300dp'
+}
